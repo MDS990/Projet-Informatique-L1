@@ -1,0 +1,38 @@
+# Bases de données SQLite (contiennent des données personnelles)
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+.env
+
+# Bibliothèques compilées C/C++ (recompilées automatiquement)
+*.dll
+*.so
+*.dylib
+
+# Cache Streamlit
+.streamlit/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+
+# Fichiers de configuration sensibles
+*.env
+secrets.toml
